@@ -10,7 +10,13 @@
 
 # production
 /build
-/yarn
+yarn.lock
+yarn-error.log
+node_modules/
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
 # misc
 .DS_Store
 .env.local
